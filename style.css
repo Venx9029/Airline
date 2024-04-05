@@ -1,60 +1,57 @@
-/* style.css */
+ /* style.css */
 
-/* Установка цвета фона на всех страницах */
 body {
-    background-color: rgba(172, 184, 184, 0.368); /* Цвет фона по желанию */
-    margin: 0; /* Убираем внешние отступы */
-    padding: 50; /* Убираем внутренние отступы */
-    margin-bottom: 50px; /* Отступ внизу body равный высоте footer'а */
-    padding-top: 100px; /* Добавляем отступ сверху для контейнера main */
+    background-color: rgba(172, 184, 184, 0.368); 
+    margin: 0; 
+    padding: 50; 
+    margin-bottom: 50px; 
+    padding-top: 100px; 
 }
 
 .main-text {
-    color: black; /* Общие стили для главного текста */
+    color: black; 
     font-size: 18px;
-    font-weight: 400; /* Насыщенность шрифта */
+    font-weight: 400; 
 }
 
 .special-text1 {
-    color: rgb(0, 0, 0); /* Цвет текста */
-    font-size: 14px; /* Размер шрифта */
-    text-decoration: none; /* Убираем подчеркивание */
-    font-weight: 400; /* Насыщенность шрифта */
+    color: rgb(0, 0, 0); 
+    font-size: 14px; 
+    text-decoration: none; 
+    font-weight: 400; 
     font-style: italic;
     line-height: 16px;
 }
 .special-text2 {
     line-height: 24px;
-    color: rgb(0, 0, 0); /* Цвет текста */
-    font-size: 16px; /* Размер шрифта */
-    text-decoration: none; /* Убираем подчеркивание */
-    font-weight: 400; /* Насыщенность шрифта */
+    color: rgb(0, 0, 0); 
+    font-size: 16px; 
+    text-decoration: none; 
+    font-weight: 400; 
     text-align: left;
 }
 
-/* Стили для шапки */
 header {
-    background-color: #fb1919d8; /* Цвет фона шапки */
-    color: white; /* Цвет текста в шапке */
-    padding: 0px; /* Внутренние отступы шапки */
-    text-align: center; /* Выравнивание текста по центру */
-    margin: 0; /* Убираем внешние отступы */
-    position: fixed; /* Фиксированная позиция */
-    width: 100%; /* Ширина на всю ширину экрана */
-    top: 0; /* Отступ от верхнего края */
-    z-index: 999; /* Чтобы шапка была выше остального контента */
+    background-color: #fb1919d8; 
+    color: white; 
+    padding: 0px; 
+    text-align: center; 
+    margin: 0; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 999; 
 }
 
-/* Стили для меню сайта */
 nav {
-    display: flex; /* Используем flexbox */
-    justify-content: center; /* Центрируем элементы по горизонтали */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
 }
 
 nav ul li {
@@ -63,14 +60,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* Цвет текста ссылок */
-    font-size: 16px; /* Размер шрифта */
-    text-decoration: none; /* Убираем подчеркивание */
-    font-weight: 400; /* Насыщенность шрифта */
+    color: white; 
+    font-size: 16px; 
+    text-decoration: none; 
+    font-weight: 400; 
 }
 
-
-/* Стили для контейнеров */
 .container {
     padding: 0px;
 }
@@ -79,16 +74,13 @@ nav ul li a {
     padding: 0px;
 }
 
-/* Стили для подвала */
 footer {
-    background-color: #fb1919d8; /* Цвет фона подвала */
-    color: white; /* Цвет текста в подвале */
-    padding: 10px; /* Внутренние отступы подвала */
-    text-align: center; /* Выравнивание текста по центру */
-    position: fixed; /* Фиксируем footer на экране */
-    bottom: 0; /* Располагаем footer внизу */
-    width: 100%; /* Ширина равна ширине экрана */
-    z-index: 999; /* Чтобы подвал был выше остального контента */
+    background-color: #fb1919d8; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 999; 
 }
-
-
